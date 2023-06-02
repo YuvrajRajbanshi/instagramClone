@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+
+}
+
+.homeScreen {
+    background: white;
+    width: 500px;
+    /* height: 900px; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+
+}
+
+.instagram {
+    margin-top: 30px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.instagram img {
+    width: 120px;
+}
+
+img.liked {
+    width: 40px;
+    margin: 3px;
+
+}
+
+
+/* from here story styling */
+.story {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.story::-webkit-scrollbar {
+    display: none;
+
+}
+
+.story img {
+    width: 90px;
+    padding: 6px;
+    transition: 0.5s;
+
+}
+
+.first-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.first-story img:hover {
+    transform: scale(1.1);
+}
+
+/* from here posting */
+
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#profile img {
+    width: 80px;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-name h4 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+img.dot {
+    height: 60px;
+    width: 30px;
+}
+
+img.crush {
+    /* width: 100%; */
+
+    /* height: 500px; */
+}
+
+.posting {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.posting::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* like , comments and saved icons */
+.liked-comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.liked-comments img {
+    width: 45px;
+}
+
+.saved h1 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.like-counts {
+    margin-left: 20px;
+}
+
+.like-counts span {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.like-counts h2 {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+.userpost1 {
+    margin-top: 40px;
+}
+
+
+
+/* here is profile number two of user  */
+
+
+.profile-name2 img {
+    border-radius: 50%;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+}
+
+footer img {
+    width: 50px;
+}
